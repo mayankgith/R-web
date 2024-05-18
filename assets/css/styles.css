@@ -121,13 +121,15 @@ img{
   font-size: var(--h1-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-3);
+  
 }
 
 .section-subtitle{
   display: block;
-  color: var(--first-color);
+  /* color: var(--first-color); */
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
+  color: #9c0606;
 }
 
 /*========== LAYOUT ==========*/
@@ -258,9 +260,10 @@ img{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: var(--first-color);
+  /* color: var(--first-color); */
   margin-bottom: var(--mb-1);
   font-size: 50px;
+  color: #9c0606;;
 }
 
 
@@ -280,7 +283,8 @@ img{
 /*========== BUTTONS ==========*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #9c0606;
   color: #FFF;
   padding: .75rem 1rem;
   border-radius: .5rem;
@@ -288,7 +292,8 @@ img{
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #0d0512;
 }
 
 
