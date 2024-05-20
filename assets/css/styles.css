@@ -53,6 +53,16 @@
     --smaller-font-size: .813rem;
   }
 }
+/* ==========HOME=========== */
+
+
+.home img {
+  position: relative;
+  padding: 15px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
 
 
 /*========== BASE ==========*/
@@ -109,6 +119,12 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+/* Button */
+
+
+
+
 
 /*========== CLASS CSS ==========*/
 .section{
@@ -296,9 +312,13 @@ img{
 }
 
 .button:hover{
-  /* background-color: var(--first-color-alt); */
-  background-color: #0d0512;
+  /* background-color: #b237ff; */
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+  
 }
+
+
 
 
 
@@ -380,6 +400,15 @@ img{
   justify-self: center;
 }
 
+.about img {
+  position: relative;
+  padding: 8px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  
+  transition: all 0.4s ease;
+}
+
+
 /*========== SERVICES ==========*/
 .services__container{
   row-gap: 2.5rem;
@@ -455,6 +484,22 @@ img{
   display: flex;
   padding: .625rem .813rem;
   border-radius: .5rem 0 .5rem 0;
+}
+
+.menu img{
+  position: relative;
+  padding: 5px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  transition: all 0.4s ease;
+}
+
+/* ==============App================ */
+
+
+.about__img{
+  border: 5px solid #f441a5;
+  border: 5px solid #03a9f4;
+  
 }
 
 /*========== logib baar ==========*/
@@ -616,6 +661,11 @@ span.psw {
 
 .contact__description{
   margin-bottom: var(--mb-3);
+}
+
+/* =========Map============ */
+.map{
+  border: 5px solid #f441a5;
 }
 
 /*========== FOOTER ==========*/
